@@ -1,6 +1,6 @@
 # eCommerce Website
 
-This project is a simple eCommerce website built using HTML, CSS, and JavaScript.
+This project is a simple eCommerce website built using HTML, CSS.
 
 ## Features
 
@@ -13,13 +13,12 @@ This project is a simple eCommerce website built using HTML, CSS, and JavaScript
 
 - HTML
 - CSS
-- JavaScript
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/eCommerce-using-HTML-CSS-JS.git
+    git clone https://github.com/onlyvikashverma/Project3.git
     ```
 2. Navigate to the project directory:
     ```sh
