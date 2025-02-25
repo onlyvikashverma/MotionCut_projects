@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.magazine-cover {
+    position: relative;
+    width: 800px; /* Increased width */
+    height: 1000px; /* Increased height */
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners */
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s; /* Smooth zoom effect */
+}
+
+.featured-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.main-title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 60px; /* Increased font size */
+    font-weight: bold;
+    color: red;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Text shadow for depth */
+}
+
+.headline {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 30px; /* Increased font size */
+    font-weight: bold;
+    color: #6b739c;
+}
+
+.decorative-line {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    width: 90%;
+    height: 3px; /* Thicker line */
+    background-color: grey;
+}
+
+.subscribe-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 15px 30px; /* Larger button */
+    font-size: 20px; /* Increased font size */
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: greenyellow;
+}
+
+.hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Light overlay */
+    opacity: 0;
+    transition: opacity 0.5s; /* Smooth fade effect */
+}
+
+.magazine-cover:hover .hover-effect {
+    opacity: 1; /* Show overlay on hover */
+}
